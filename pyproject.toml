@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "flasher"
+version = "0.1.0"
+description = ""
+authors = ["Sep-Binkhorst <sepbinkhorst@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.1.3"
+pyvisa-py = "^0.7.2"
+zeroconf = "^0.136.0"
+serial = "^0.0.97"
+pyserial = "^3.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
